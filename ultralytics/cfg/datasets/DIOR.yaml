@@ -1,0 +1,10 @@
+train: datasets/DIOR/yolo/train.txt # ##
+val: datasets/DIOR/yolo/val.txt # ##
+
+# number of classes
+nc: 20
+
+# class names
+names: ['airplane', 'airport', 'baseballfield', 'basketballcourt', 'bridge', 'chimney', 'dam',
+        'Expressway-Service-area', 'Expressway-toll-station', 'golffield', 'groundtrackfield', 'harbor',
+        'overpass', 'ship', 'stadium', 'storagetank', 'tenniscourt', 'trainstation', 'vehicle', 'windmill']
